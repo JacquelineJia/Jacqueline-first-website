@@ -1,0 +1,17 @@
+.profile {
+  background-image: url("images/sisi2.jpg");
+  background-color: pink;
+  background-size: 720px 600px;  height: 600px;}.profile h1 {  color: white;
+  font-size: 48px;
+  font-weight: bold;
+  position: relative;
+  top: 140px;
+  left: 20px;}
+
+.profile p {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
