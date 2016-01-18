@@ -1,7 +1,7 @@
 .profile {
   background-image: url("images/sisi2.jpg");
   background-color: pink;
-  background-size: 720px 600px;  height: 600px;}.profile h1 {  color: white;
+  background-size: 710px 600px;  height: 600px;}.profile h1 {  color: white;
   font-size: 48px;
   font-weight: bold;
   position: relative;
@@ -10,8 +10,35 @@
 
 .profile p {
   color: white;
-  font-size: 20px;
+  font-size: 19px;
   position: relative;
   top: 20px;
   left: 20px;
+}
+
+.resume {
+  background-color: #ffeff2;
+}
+
+.resume h3 {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.resume p {
+  position: relative;
+  top: 10px;
+  left: 20px;
+  color: #333333;
+}
+
+.resume li {
+  position: relative;
+  top: 10px;
+  left: 20px;
+  color: #333333;
 }
