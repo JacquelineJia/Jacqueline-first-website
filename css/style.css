@@ -1,6 +1,10 @@
 .profile {
+  width: 900px;
+  margin: 20px;
   background-image: url("images/sisi.JPG");
   background-color: pink;
+  background-repeat: no-repeat;
+  Background-position: center;
   background-size: 710px 600px;  height: 600px;}.profile h1 {  color: white;
   font-size: 48px;
   font-weight: bold;
@@ -17,6 +21,8 @@
 }
 
 .resume {
+  width: 900px;
+  margin: 20px;
   background-color: #ffeff2;
 }
 
