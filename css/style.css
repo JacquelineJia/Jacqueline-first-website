@@ -1,6 +1,6 @@
 .profile {
+  margin: auto;
   width: 900px;
-  margin: 20px;
   background-image: url("images/sisi.JPG");
   background-color: pink;
   background-repeat: no-repeat;
@@ -21,8 +21,8 @@
 }
 
 .resume {
+  margin: auto;
   width: 900px;
-  margin: 20px;
   background-color: #ffeff2;
 }
 
