@@ -1,16 +1,79 @@
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+@-moz-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+@keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+.fade-in {
+  opacity: 0;
+
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.fade-in.one {
+  -webkit-animation-duration: 0.1s;
+  -moz-animation-duration: 0.1s;
+  animation-duration: 0.1s;
+
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+.fade-in.two {
+  -webkit-animation-duration: 0.3s;
+  -moz-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+
+  -webkit-animation-delay: 0.8s;
+  -moz-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+}
+.cover {
+  //transition: opacity 400ms ease-in-out 0s;
+  width: 710px;
+  height: 600px;
+}
+
 .profile {
   margin: auto;
-  width: 900px;
+//  width: 900px;
+  height: 100%;
+  width: 100%;
   background-image: url("images/sisi.JPG");
   background-color: #009999;
   background-repeat: no-repeat;
   Background-position: center;
-  background-size: 710px 600px;  height: 600px;}.profile h1 {  color: white;
+  background-size: 710px 600px;
+//  margin-left: 0px;
+//  margin-top: 0;
+//  opacity: 1;
+//  transition: opacity 400ms ease-in-out 0s;
+  
+  height: 600px;
+}
+.profile h1 {
+  animation: 0.3s ease-in 2s normal forwards 1 running fadeIn;
+  color: white;
   font-size: 48px;
   font-weight: bold;
   position: relative;
   top: 140px;
-  left: 120px;}
+  left: 120px;
+}
 
 .profile p {
   color: white;
